@@ -54,6 +54,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px;
 }
 
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
+
 /* = Full Width Blocs 
 -------------------------------------------------------------- */
 
@@ -222,6 +253,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* Scroll FX */
 .scroll-fx-in-range{
@@ -255,6 +293,11 @@ button{
 	stroke-linecap:round;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -263,6 +306,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container{
 	max-width:1140px;
+}
+.row-style{
+	width:100%;
+}
+.btn-submit-style{
+	width:49.02%;
+	border-radius:25px 25px 25px 25px;
+}
+.btn-style{
+	width:33.79%;
+	border-radius:25px 25px 25px 25px;
+}
+.btn-8-style{
+	width:50.78%;
+	border-radius:25px 25px 25px 25px;
+}
+.btn-button-style{
+	width:44.71%;
+	border-radius:25px 25px 25px 25px;
 }
 
 /* = Colour

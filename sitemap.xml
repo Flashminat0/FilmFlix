@@ -50,4 +50,22 @@
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
+<url>
+	<loc>www.filmflix.com/movies.html</loc>
+	<lastmod>2021-03-11</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<video:video>
+	<video:content_loc>www.filmFlix.com/vid/video-placeholder.mp4</video:content_loc>
+	<video:title>video-placeholder</video:title>
+	</video:video>
+	<image:image>
+	<image:loc>www.filmFlix.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmFlix.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
