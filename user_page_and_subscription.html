@@ -5,18 +5,16 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="canonical" href="www.filmFlix.com/movie_uploader.html" />
+	<link rel="canonical" href="www.filmFlix.com/user_page_and_subscription.html" />
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?3841">
-	<link rel="stylesheet" type="text/css" href="style.css?2583">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?7085">
-	<link rel="stylesheet" type="text/css" href="./css/cookieconsent.min.css?1245">
-	
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?5748">
+	<link rel="stylesheet" type="text/css" href="style.css?5060">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?9966">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	
-    <title>movie_uploader</title>
+    <title>user_page_and_subscription</title>
 
 
     
@@ -80,99 +78,96 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-13 -->
-<div class="bloc l-bloc" id="bloc-13">
+<!-- bloc-16 -->
+<div class="bloc l-bloc" id="bloc-16">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-8">
-				<div class="embed-responsive embed-responsive-16by9">
-					<video controls class="embed-responsive-item lazyload" data-src="vid/video-placeholder.mp4">
-						Your browser does not support HTML5 video.
-					</video>
-				</div>
+			<div class="col-sm-4 col">
+				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="placeholder user" />
 			</div>
-			<div class="col-sm-4">
-				<div class="card-columns container-div-style">
-					<img src="img/lazyload-ph.png" data-src="img/placeholder-image-sq.png" class="img-fluid mg-sm lazyload" alt="placeholder image-sq" /><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mg-sm lazyload" alt="placeholder image" /><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mg-sm lazyload" alt="placeholder image" /><img src="img/lazyload-ph.png" data-src="img/placeholder-image-sq.png" class="img-fluid mg-sm lazyload" alt="placeholder image-sq" /><img src="img/lazyload-ph.png" data-src="img/placeholder-image-sq.png" class="img-fluid mg-sm lazyload" alt="placeholder image-sq" /><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mg-sm lazyload" alt="placeholder image" />
-				</div><a href="index.html" class="btn btn-d btn-lg">Button</a><a href="index.html" class="btn btn-d btn-lg">Button</a>
-				<div class="btn-group btn-dropdown">
-					<a href="#" class="btn dropdown-toggle  btn-d  btn-lg" data-toggle="dropdown" aria-expanded="false">Button</a>
-					<ul class="dropdown-menu" role="menu">
-						<li>
-							<a href="index.html" class="dropdown-item a-block">Options 1</a>
-						</li>
-						<li>
-							<a href="index.html" class="dropdown-item a-block">Options 2</a>
-						</li>
-					</ul>
-				</div>
-				<div class="form-group">
-					<label>
-						Label
-					</label><textarea class="form-control" rows="4" cols="50"></textarea>
-				</div>
+			<div class="col-sm-8 col">
+				<form id="form_3" data-form-type="blocs-form" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<div class="form-group">
+						<label>
+							Name
+						</label>
+						<input id="name" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Email
+						</label>
+						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Message
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="optin" data-validation-minchecked-message="You must agree to this before we can take your information." data-validation-minchecked-minchecked="1" name="optin" />
+						<label class="form-check-label">
+							We can send you product updates and offers via email. It is possible to opt-out at any time.
+						</label>
+					</div> 
+					<button class="bloc-button btn btn-d btn-lg btn-21-style" type="submit">
+						Submit
+					</button><a href="index.html" class="btn btn-d btn-lg float-lg-right btn-22-style">Button</a>
+				</form>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-13 END -->
+<!-- bloc-16 END -->
 
-<!-- bloc-14 -->
-<div class="bloc l-bloc" id="bloc-14">
-	<div class="container bloc-lg bloc-no-padding-lg">
+<!-- bloc-17 -->
+<div class="bloc l-bloc" id="bloc-17">
+	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-md-2">
-				<h3 class="mg-md text-center ">
-					<strong>148K</strong>
-				</h3>
-				<h4 class="mg-md text-center ">
-					Product Users
-				</h4>
+			<div class="align-self-center col-lg-3 col-md-6">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					<div class="card-body">
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+						</p><a href="index.html" class="btn btn-d btn-block">More Info</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-2">
-				<h3 class="mg-md text-center ">
-					<strong>1289</strong>
-				</h3>
-				<h4 class="mg-md text-center ">
-					Tweets
-				</h4>
+			<div class="mt-3 col-lg-3 col-md-6 mt-md-0">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					<div class="card-body">
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+						</p><a href="index.html" class="btn btn-d btn-block">More Info</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-2">
-				<h3 class="mg-md text-center ">
-					<strong>128K</strong>
-				</h3>
-				<h4 class="mg-md text-center ">
-					Subscribers
-				</h4>
+			<div class="mt-3 col-lg-3 align-self-center col-md-6 mt-lg-0">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					<div class="card-body">
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.&nbsp;
+						</p><a href="index.html" class="btn btn-d btn-block">More Info</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-2">
-				<h3 class="mg-md text-center ">
-					<strong>220K</strong>
-				</h3>
-				<h4 class="mg-md text-center ">
-					Followers
-				</h4>
-			</div>
-			<div class="col-md-2">
-				<h3 class="mg-md text-center ">
-					<strong>20K</strong>
-				</h3>
-				<h4 class="mg-md text-center ">
-					Likes
-				</h4>
-			</div>
-			<div class="col-md-2">
-				<h3 class="mg-md text-center ">
-					<strong>999K</strong>
-				</h3>
-				<h4 class="mg-md text-center ">
-					Cups of Tea
-				</h4>
+			<div class="mt-3 col-lg-3 align-self-center col-md-6 mt-lg-0">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					<div class="card-body">
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.&nbsp;
+						</p><a href="index.html" class="btn btn-d btn-block">More Info</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-14 END -->
+<!-- bloc-17 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
@@ -239,8 +234,9 @@
 <script src="./js/jquery-3.5.1.js?2488"></script>
 <script src="./js/bootstrap.bundle.js?2869"></script>
 <script src="./js/blocs.js?1558"></script>
-<script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/cookieconsent.min.js?790"></script><!-- Additional JS END -->
+<script src="./js/jqBootstrapValidation.js"></script>
+<script src="./js/formHandler.js?6156"></script>
+<script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
 
 
 </body>
