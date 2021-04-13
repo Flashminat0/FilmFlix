@@ -1,6 +1,5 @@
 /*-----------------------------------------------------------------------------------
 	FilmFlix
-	About: A shiny new Blocs website.
 	Author: Yasas Lowe
 	Version: 1.0
 	Built with Blocs
@@ -186,7 +185,8 @@ button{
 .text-center .a-block{
 	text-align:center;
 }
-
+.btn .caret{
+	margin:0 0 0 5px}
 /* = Icons
 -------------------------------------------------------------- */
 .icon-md{
@@ -243,6 +243,12 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+
+.carousel-caption-center{
+	top: 50%;
+	bottom: initial;
+	transform: translateY(-50%);
 }
 /* Scroll FX */
 .scroll-fx-in-range{
@@ -323,6 +329,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-13-style{
 	width:30.16%;
+}
+.container-div-style{
+	height:183px;
 }
 
 /* = Colour
