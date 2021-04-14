@@ -74,6 +74,87 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-paper::before{
+	background: url("img/texture-paper.png");
+	background-size: 280px 280px;
+}
+
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+
 /* Light theme */
 
 .d-bloc .card,.l-bloc{
@@ -292,7 +373,7 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
-	color:#FFFFFF!important;
+	color:#B2BEB5!important;
 }
 .container{
 	max-width:1140px;
@@ -302,18 +383,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-submit-style{
 	width:49.02%;
+	border-color:rgba(255,255,255,0.36)!important;
 	border-radius:25px 25px 25px 25px;
 }
 .btn-style{
 	width:33.79%;
+	border-color:rgba(255,255,255,0.36)!important;
 	border-radius:25px 25px 25px 25px;
 }
 .btn-8-style{
 	width:50.78%;
+	border-color:rgba(255,255,255,0.36)!important;
 	border-radius:25px 25px 25px 25px;
 }
 .btn-button-style{
 	width:44.71%;
+	border-color:rgba(255,255,255,0.36)!important;
 	border-radius:25px 25px 25px 25px;
 }
 .row-bloc-8-style{
@@ -348,12 +433,55 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-bloc-6-style{
 	width:86.28%;
+	border-color:transparent!important;
+	background-color:transparent;
+}
+.text-center{
+	color:#B2BEB5!important;
+	background-color:transparent;
+}
+.text-right{
+	color:#B2BEB5!important;
+}
+.navbar-brand img{
+	width:50px;
+	height:40px;
+}
+.licence{
+	text-transform:none;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+	background-color:rgba(0,0,0,0.63);
+	margin:9px 9px 9px 9px;
 }
 
 /* = Colour
 -------------------------------------------------------------- */
 
 
+/* Text colour styles */
+
+.tc-medium-jungle-green{
+	color:#282C33!important;
+}
+
+/* Button colour styles */
+
+.btn-medium-jungle-green{
+	background:#282C33;
+	color:#FFFFFF!important;
+}
+.btn-medium-jungle-green:hover{
+	background:#202329!important;
+	color:#FFFFFF!important;
+}
+
+/* Bloc image backgrounds */
+
+.bg-login-background{
+	background-image:url("img/login_background.jpg");
+}
 
 
 

@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?6060">
-	<link rel="stylesheet" type="text/css" href="style.css?2429">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?3096">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?2613">
+	<link rel="stylesheet" type="text/css" href="style.css?4855">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?8291">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	
     <title>login</title>
@@ -34,7 +34,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc l-bloc none full-width-bloc animated fadeInDown" data-appear-anim-style="fadeInDown" id="bloc-0">
+<div class="bloc none full-width-bloc animated fadeInDown l-bloc" data-appear-anim-style="fadeInDown" id="bloc-0">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col">
@@ -79,24 +79,18 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-7 -->
-<div class="bloc l-bloc" id="bloc-7">
+<div class="bloc bg-login-background d-bloc bloc-bg-texture texture-paper bg-repeat" id="bloc-7">
 	<div class="container bloc-lg bloc-sm-lg" id="signup">
 		<div class="row">
 			<div class="col-lg-6 offset-lg-3 offset-md-2 col-md-8">
-				<form id="form_38456" data-form-type="blocs-form" novalidate>
+				<form id="form_38456" data-form-type="blocs-form" action="custom-action-url" method="POST">
 					<div class="form-group">
-						<label>
-							Email<br>
-						</label>
-						<input id="email_38456" class="form-control field-style" required />
+						<input id="email_38456" class="form-control field-style" required type="email" data-error-validation-msg="Not a valid email address" placeholder="Email" name="email_38456" />
 					</div>
 					<div class="form-group">
-						<label>
-							Password
-						</label>
-						<input id="password_38456" class="form-control" type="email" required />
-					</div> <a href="#" class="btn btn-d btn-lg float-lg-right btn-style" data-toggle-visibility="signin,signup">Sign in</a>
-					<button class="bloc-button btn btn-d btn-lg btn-block btn-submit-style" type="submit">
+						<input id="password_38456" class="form-control" type="password" required placeholder="Password" name="password_38456" />
+					</div> <a href="#" class="btn btn-lg float-lg-right btn-style btn-medium-jungle-green" data-toggle-visibility="signin,signup">Sign in</a>
+					<button class="bloc-button btn btn-lg btn-block btn-submit-style btn-medium-jungle-green" type="submit">
 						Submit
 					</button>
 				</form>
@@ -107,42 +101,30 @@
 <!-- bloc-7 END -->
 
 <!-- bloc-8 -->
-<div class="bloc l-bloc" id="bloc-8">
+<div class="bloc tc-medium-jungle-green bg-login-background d-bloc bloc-bg-texture texture-paper" id="bloc-8">
 	<div class="container bloc-lg object-hidden bloc-sm-lg" id="signin">
 		<div class="row">
 			<div class="col-lg-6 offset-lg-3 offset-md-2 col-md-8">
-				<form id="form_33921" data-form-type="blocs-form" novalidate>
+				<form id="form_33921" data-form-type="blocs-form" action="custom-action-url" method="POST">
 					<div class="form-group">
-						<label>
-							Name
-						</label>
-						<input id="name_33921" class="form-control" required />
+						<input id="name_33921" class="form-control" required data-validation-required-message="Please enter your name" placeholder="Name" name="name_33921" />
 					</div>
 					<div class="form-group">
-						<label>
-							Email
-						</label>
-						<input id="email_33921" class="form-control" type="email" required />
+						<input id="email_33921" class="form-control" type="email" required data-error-validation-msg="Enter a valid Email" data-validation-required-message="Please enter a email" placeholder="Email" name="email_33921" />
 					</div>
 					<div class="form-group">
-						<label>
-							Create a password
-						</label>
-						<input id="pass_123" class="form-control" type="email" required />
+						<input id="pass_123" class="form-control" type="password" required maxlength="10" data-validation-required-message="Enter a password" placeholder="Password" name="pass_123" />
 					</div>
 					<div class="form-group">
-						<label>
-							Re-enter your password
-						</label>
-						<input id="re_pass_123" class="form-control" type="email" required />
+						<input id="re_pass_123" class="form-control" type="password" required maxlength="10" data-validation-required-message="Enter the same password as above" placeholder="Re-enter Password" name="re_pass_123" />
 					</div>
-					<div class="custom-switch custom-control">
-						<input class="custom-control-input" type="checkbox" id="optin_33921" data-validation-minchecked-message="You must agree to this before we can make you an acccount" data-validation-minchecked-minchecked="1" name="optin_33921" />
-						<label class="custom-control-label" for="optin_33921">
+					<div class="licence form-check">
+						<input class="form-check-input " type="checkbox" id="optin_33921" data-validation-minchecked-message="You must agree to this before we can make you an acccount" data-validation-minchecked-minchecked="1" name="optin_33921" />
+						<label class="form-check-label">
 							Accept Licence Agreement
 						</label>
-					</div> <a href="#" class="btn btn-d btn-lg float-lg-right btn-button-style" data-toggle-visibility="signin,signup">Sign Up</a>
-					<button class="bloc-button btn btn-d btn-lg btn-block btn-8-style" type="submit">
+					</div> <a href="#" class="btn btn-lg float-lg-right btn-button-style btn-medium-jungle-green" data-toggle-visibility="signin,signup">Sign Up</a>
+					<button class="bloc-button btn btn-lg btn-block btn-8-style btn-medium-jungle-green" type="submit">
 						Submit
 					</button>
 				</form>
@@ -214,11 +196,11 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.js?277"></script>
-<script src="./js/bootstrap.bundle.js?9529"></script>
-<script src="./js/blocs.js?5783"></script>
+<script src="./js/jquery-3.5.1.js?644"></script>
+<script src="./js/bootstrap.bundle.js?9094"></script>
+<script src="./js/blocs.js?2749"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?3791"></script>
+<script src="./js/formHandler.js?2183"></script>
 <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
 
 
