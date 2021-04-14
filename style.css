@@ -7,7 +7,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:#282D33;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -292,6 +292,7 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
+	color:#FFFFFF!important;
 }
 .container{
 	max-width:1140px;
@@ -338,6 +339,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-21-style{
 	width:37.39%;
+}
+.p-style{
+	width:90.77%;
+}
+.h4-style{
+	width:86.54%;
+}
+.p-bloc-6-style{
+	width:86.28%;
 }
 
 /* = Colour
