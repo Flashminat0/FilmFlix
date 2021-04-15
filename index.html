@@ -9,10 +9,13 @@
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?2798">
-	<link rel="stylesheet" type="text/css" href="style.css?4831">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?5193">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?9363">
+	<link rel="stylesheet" type="text/css" href="style.css?7829">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?2495">
+	<link rel="stylesheet" type="text/css" href="./css/anim_background.css?9621">
+	
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	
     <title>Home</title>
 
@@ -34,12 +37,12 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc none full-width-bloc animated fadeInDown l-bloc" data-appear-anim-style="fadeInDown" id="bloc-0">
-	<div class="container bloc-sm">
+<div class="bloc none full-width-bloc animated fadeInDown b-parallax l-bloc" data-appear-anim-style="fadeInDown" id="bloc-0">
+	<div class="container bloc-sm bloc-no-padding-lg">
 		<div class="row">
 			<div class="col">
 				<nav class="navbar navbar-light row navbar-expand-md" role="navigation">
-					<a class="navbar-brand animated zoomIn animSpeedLazy animDelay02" href="index.html" data-appear-anim-style="zoomIn">FilmFlix</a>
+					<a class="navbar-brand animated zoomIn animSpeedLazy animDelay02 link-style" href="index.html" data-appear-anim-style="zoomIn"><img src="img/Header_logo.jpg" alt="logo" class="mr-2" />FilmFlix</a>
 					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ml-auto mr-md-0" data-toggle="collapse" data-target=".navbar-43698" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -55,19 +58,19 @@
 								<a href="login.html" class="nav-link">login</a>
 							</li>
 							<li class="nav-item">
-								<a href="movies.html" class="a-btn nav-link">movies</a>
+								<a href="movies.html" class="nav-link">movies</a>
 							</li>
 							<li class="nav-item">
-								<a href="browse.html" class="a-btn nav-link">browse</a>
+								<a href="browse.html" class="nav-link">browse</a>
 							</li>
 							<li class="nav-item">
-								<a href="movie_uploader.html" class="a-btn nav-link">movie_uploader</a>
+								<a href="movie_uploader.html" class="nav-link">movie_uploader</a>
 							</li>
 							<li class="nav-item">
-								<a href="description_adder.html" class="a-btn nav-link">description_adder</a>
+								<a href="description_adder.html" class="nav-link">description_adder</a>
 							</li>
 							<li class="nav-item">
-								<a href="user_page_and_subscription.html" class="a-btn nav-link">user_page_and_subscription</a>
+								<a href="user_page_and_subscription.html" class="nav-link">user_page_and_subscription</a>
 							</li>
 						</ul>
 					</div>
@@ -79,22 +82,30 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc scroll-fx-up-out-fade scroll-fx-in-fade animated fadeInUp none full-width-bloc l-bloc" id="bloc-1" data-appear-anim-style="fadeInUp">
-	<div class="container bloc-sm-lg">
+<div class="bloc scroll-fx-up-out-fade animated fadeInUp none full-width-bloc l-bloc" id="bloc-1" data-appear-anim-style="fadeInUp">
+	<div class="container bloc-no-padding-lg">
 		<div class="row align-items-center">
 			<div class="col-md-12 offset-lg--1 col-lg-6">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block mg-sm lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/homepage-1.png" class="img-fluid mx-auto d-block img-style-1 img-style lazyload" alt="homepage 1" />
 			</div>
 			<div class="align-self-center offset-md-1 col-md-10 col-sm-10 offset-sm-1 offset-1 col-10 offset-lg-1 col-lg-4">
 				<h2 class="mg-md">
-					Feature Title
+					Hosted on this Laptop
 				</h2>
 				<h3 class="mg-md">
-					A more descriptive sub heading.
+					yeah you heard it right.
 				</h3>
 				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				</p><a href="index.html" class="btn btn-d btn-lg">More Info</a>
+					This whole site is hosted on this laptop you&rsquo;re watching. so don&rsquo;t expect a big website as NETFLIX as this is made as a clone to it. Frontend is made using Bootstrap and React and the backend is done using Java and servlet. Database used : PostgreSQL.
+				</p><a href="index.html" class="btn btn-d btn-lg btn-block">I Understand</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div><div id="be-animBackground" data-color1="#151515" data-color2="#151515" data-color3="#6A2EA5" data-color4="#151515">
+
+</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -102,14 +113,17 @@
 <!-- bloc-1 END -->
 
 <!-- bloc-2 -->
-<div class="bloc none full-width-bloc scroll-fx-up-in-fade scroll-fx-up-out-fade l-bloc" id="bloc-2">
-	<div class="container bloc-no-padding bloc-sm-lg">
+<div class="bloc none scroll-fx-up-in-fade scroll-fx-up-out-fade full-width-bloc l-bloc" id="bloc-2">
+	<div class="container b-divider bloc-no-padding-lg">
 		<div class="row">
 			<div class="order-md-0 col-md-12 col-lg-6 order-lg-1 offset-lg-1">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/homepage-2.jpg" class="img-fluid mx-auto d-block img-homepage-style img-style-2 lazyload" alt="placeholder image" />
 			</div>
-			<div class="align-self-center offset-md-1 col-md-10 col-lg-4 col-sm-10 offset-sm-1 col-10 offset-1">
-				<h2 class="mg-md">
+			<div class="offset-md-1 col-md-10 col-sm-10 offset-sm-1 col-10 offset-1 align-self-center order-lg-0 col-lg-4 offset-lg-1">
+				<div class="divider-h object-hidden">
+					<span class="divider"></span>
+				</div>
+				<h2 class="text-lg-left sm-shadow mg-md">
 					Feature Title
 				</h2>
 				<h3 class="mg-md">
@@ -126,7 +140,7 @@
 
 <!-- bloc-3 -->
 <div class="bloc scroll-fx-zoom-push scroll-fx-up-out-fade scroll-fx-up-in-fade l-bloc" id="bloc-3">
-	<div class="container bloc-lg">
+	<div class="container bloc-lg bloc-xxl-lg">
 		<div class="row">
 			<div class="col-md-6">
 				<div class="text-center">
@@ -138,18 +152,20 @@
 				<p class="text-center">
 					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 				</p>
+				<div><div id="particles-js"></div>
+				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="text-center">
-					<span class="fa fa-star icon-round icon-md"></span>
+					<div class="text-center">
+						<span class="fa fa-star icon-round icon-md"></span>
+					</div>
+					<h3 class="mg-md text-center">
+						Feature Title
+					</h3>
+					<p class="text-center">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+					</p>
 				</div>
-				<h3 class="mg-md text-center">
-					Feature Title
-				</h3>
-				<p class="text-center">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-				</p>
-			</div>
 		</div>
 	</div>
 </div>
@@ -213,13 +229,13 @@
 <!-- bloc-4 END -->
 
 <!-- bloc-5 -->
-<div class="bloc scroll-fx-up-in-fade scroll-fx-zoom-push tc-medium-jungle-green l-bloc" id="bloc-5">
-	<div class="container bloc-lg bloc-no-padding-lg">
+<div class="bloc scroll-fx-up-in-fade scroll-fx-zoom-push tc-onyx l-bloc" id="bloc-5">
+	<div class="container bloc-lg bloc-sm-lg">
 		<div class="row">
 			<div class="col-md-4 col-lg-3 offset-lg-1 align-self-center scroll-fx-left-in-fade">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="mg-clear text-center">
+						<h3 class="mg-clear text-center payment-title">
 							Basic
 						</h3>
 						<div class="text-center">
@@ -258,7 +274,7 @@
 			<div class="col-md-4 mt-3 mt-md-0 col-lg-4 scroll-fx-in-fade">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="mg-clear text-center">
+						<h3 class="mg-clear text-center payment-title">
 							Standard
 						</h3>
 						<div class="text-center">
@@ -290,14 +306,14 @@
 						</ul>
 					</div>
 					<div class="card-footer">
-						<a href="index.html" class="btn btn-d btn-lg btn-block">LKR 2000/=</a>
+						<a href="index.html" class="btn btn-d btn-lg btn-block" id="btn-standard-buy-home">LKR 2000/=</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 mt-3 mt-md-0 col-lg-3 align-self-center scroll-fx-right-in-fade">
 				<div class="card">
 					<div class="card-header">
-						<h3 class="mg-clear text-center">
+						<h3 class="mg-clear text-center payment-title" id="btn-pro-buy-home">
 							Pro
 						</h3>
 						<div class="text-center">
@@ -343,8 +359,8 @@
 <!-- ScrollToTop Button END-->
 
 
-<!-- bloc-8 -->
-<div class="bloc l-bloc" id="bloc-8">
+<!-- bloc-21 -->
+<div class="bloc l-bloc" id="bloc-21">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
@@ -366,25 +382,25 @@
 				<h4 class="mg-md text-sm-left text-center">
 					Connect
 				</h4>
-				<div class="row animated pulse" data-appear-anim-style="pulse">
+				<div class="row">
 					<div class="col-6 col-sm-2 col offset-sm-0">
 						<div class="text-center">
-							<a href="https://github.com/Flashminat0" target="_blank"><span class="fab fa-facebook-f icon-md"></span></a>
+							<a href="https://github.com/Flashminat0" target="_blank"><span class="icon-md ion ion-social-github"></span></a>
 						</div>
 					</div>
 					<div class="col-6 col-sm-2">
 						<div class="text-center">
-							<a href="https://github.com/HDHUB" target="_blank"><span class="fab fa-twitter icon-md"></span></a>
+							<a href="https://github.com/HDHUB" target="_blank"><span class="icon-md ion ion-social-octocat"></span></a>
 						</div>
 					</div>
 					<div class="col-6 col-sm-2">
 						<div class="text-center">
-							<a href="https://github.com/swee76" target="_blank"><span class="fab fa-instagram icon-md"></span></a>
+							<a href="https://github.com/swee76" target="_blank"><span class="icon-md ion ion-social-github-outline"></span></a>
 						</div>
 					</div>
 					<div class="col-6 col-sm-2">
 						<div class="text-center">
-							<a href="https://github.com/Tharushi1212" target="_blank"><span class="far fa-envelope icon-md"></span></a>
+							<a href="https://github.com/Tharushi1212" target="_blank"><span class="icon-md ion ion-social-octocat "></span></a>
 						</div>
 					</div>
 				</div>
@@ -392,7 +408,7 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-8 END -->
+<!-- bloc-21 END -->
 
 </div>
 <!-- Main container END -->
@@ -400,11 +416,15 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.js?644"></script>
-<script src="./js/bootstrap.bundle.js?9094"></script>
-<script src="./js/blocs.js?2749"></script>
+<script src="./js/jquery-3.5.1.js?5346"></script>
+<script src="./js/bootstrap.bundle.js?2982"></script>
+<script src="./js/blocs.js?6225"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/scrollFX.js?4987"></script>
+<script src="./js/waves.js?150"></script>
+<script src="./js/particles.min.js?2318"></script>
+<script src="./js/be-animated-background.js?7351"></script>
+<script src="./js/particles-setup.js?4772"></script>
+<script src="./js/scrollFX.js?1673"></script>
 <!-- Additional JS END -->
 
 

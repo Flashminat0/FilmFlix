@@ -7,7 +7,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:#282D33;
+    background:#151515;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -104,54 +104,29 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Dark theme */
+/* Background Effects */
 
-.d-bloc{
-	color:rgba(255,255,255,.7);
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-1;
 }
-.d-bloc button:hover{
-	color:rgba(255,255,255,.9);
-}
-.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
-	border-color:rgba(255,255,255,.9);
-}
-.d-bloc .divider-h span{
-	border-color:rgba(255,255,255,.2);
-}
-.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
-	color:rgba(255,255,255,.6);
-}
-.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
-	color:rgba(255,255,255,1);
-}
-.d-bloc .navbar-toggle .icon-bar{
-	background:rgba(255,255,255,1);
-}
-.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
-	color:rgba(255,255,255,1);
-	border-color:rgba(255,255,255,1);
-}
-.d-bloc .card{
-	color:rgba(0,0,0,.5);
-}
-.d-bloc .card button:hover{
-	color:rgba(0,0,0,.7);
-}
-.d-bloc .card icon{
-	border-color:rgba(0,0,0,.7);
-}
-.d-bloc .card .divider-h span{
-	border-color:rgba(0,0,0,.1);
-}
-.d-bloc .card .a-btn{
-	color:rgba(0,0,0,.6);
-}
-.d-bloc .card .a-btn:hover{
-	color:rgba(0,0,0,1);
-}
-.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
-	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
+.parallax {
+	position: fixed;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -188,8 +163,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
-.voffset-lg{
-	margin-top:80px;
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
 }
 
 
@@ -258,6 +236,18 @@ button{
 .btn-rd{
 	border-radius: 40px;
 }
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -265,6 +255,9 @@ button{
 }
 .text-center .a-block{
 	text-align:center;
+}
+.icon-spacer{
+	margin-right:5px;
 }
 .btn .caret{
 	margin:0 0 0 5px}
@@ -291,6 +284,11 @@ button{
 }
 
 
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
 
 
 /* = Cards
@@ -308,6 +306,24 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -330,6 +346,10 @@ button{
 	top: 50%;
 	bottom: initial;
 	transform: translateY(-50%);
+}
+
+.hide-indicators{
+	display:none;
 }
 /* Scroll FX */
 .scroll-fx-in-range{
@@ -373,7 +393,7 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
-	color:#B2BEB5!important;
+	color:#FFFFFF!important;
 }
 .container{
 	max-width:1140px;
@@ -397,7 +417,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:25px 25px 25px 25px;
 }
 .btn-button-style{
-	width:44.71%;
+	width:38.45%;
 	border-color:rgba(255,255,255,0.36)!important;
 	border-radius:25px 25px 25px 25px;
 }
@@ -411,7 +431,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:38.29%;
 }
 .btn-11-style{
-	border-radius:0px 0px 0px 0px;
+	width:14.56%;
+	border-radius:20px 20px 20px 20px;
 }
 .btn-13-style{
 	width:30.16%;
@@ -444,8 +465,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#B2BEB5!important;
 }
 .navbar-brand img{
-	width:50px;
-	height:40px;
+	height:60px;
+	width:60px;
 }
 .licence{
 	text-transform:none;
@@ -455,6 +476,43 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:rgba(0,0,0,0.63);
 	margin:9px 9px 9px 9px;
 }
+.link-style{
+	font-size:30px;
+	line-height:45px;
+}
+.btn-10-style{
+	width:4.49%;
+}
+.payment-title{
+	color:#000000!important;
+}
+.img-style-1{
+	position:relative;
+	left:-15px;
+}
+.img-style{
+	border-radius:21px 21px 21px 21px;
+}
+.img-homepage-style{
+	border-radius:38px 38px 38px 38px;
+}
+.img-style-2{
+	position:relative;
+	right:-15px;
+}
+.done{
+	position:relative;
+	float:none;
+	clear:none;
+	overflow:hidden;
+	display:flex;
+}
+.icon-hide{
+	z-index:-1;
+	position:absolute;
+	top:135px;
+	right:130px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -462,18 +520,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
-.tc-medium-jungle-green{
-	color:#282C33!important;
+.tc-onyx{
+	color:#151515!important;
 }
 
 /* Button colour styles */
 
-.btn-medium-jungle-green{
-	background:#282C33;
+.btn-onyx{
+	background:#151515;
 	color:#FFFFFF!important;
 }
-.btn-medium-jungle-green:hover{
-	background:#202329!important;
+.btn-onyx:hover{
+	background:#111111!important;
 	color:#FFFFFF!important;
 }
 
@@ -483,6 +541,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/login_background.jpg");
 }
 
+/* = Custom Bric Data
+-------------------------------------------------------------- */
+
+#particles-js{
+	position: absolute;
+	height:100%;
+	width: 100%;
+	left: 0;
+	right:0;
+	top:0;
+	bottom: 0;
+}
 
 
 /* = Bloc Padding Multi Breakpoint

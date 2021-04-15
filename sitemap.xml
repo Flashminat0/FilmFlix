@@ -2,9 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>www.filmflix.com</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+	<image:loc>www.filmflix.com/img/homepage-1.png</image:loc>
+	<image:title>homepage%201</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/homepage-2.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/placeholder-image.png</image:loc>
 	<image:title>placeholder%20image</image:title>
@@ -20,7 +28,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/about.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -50,7 +58,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/login.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -64,7 +72,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/movies.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -98,20 +106,12 @@
 </url>
 <url>
 	<loc>www.filmflix.com/browse.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
 	<image:title>slide%201</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
-	<image:title>slide%202</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
-	<image:title>slide%203</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/placeholder-image.png</image:loc>
@@ -132,7 +132,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/movie_uploader.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -158,7 +158,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/description_adder.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -184,7 +184,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/user_page_and_subscription.html</loc>
-	<lastmod>2021-04-14</lastmod>
+	<lastmod>2021-04-15</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
