@@ -513,6 +513,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	top:135px;
 	right:130px;
 }
+.left-column-profile{
+	position:relative;
+	left:110px;
+}
+.right-column-profile{
+	position:relative;
+	left:60px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
