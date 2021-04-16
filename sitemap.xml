@@ -14,15 +14,15 @@
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>www.filmflix.com/img/top-25-dvds-2019.jpg</image:loc>
+	<image:loc>www.filmflix.com/img/basic-banner.jpg</image:loc>
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>www.filmflix.com/img/dvds.jpg</image:loc>
+	<image:loc>www.filmflix.com/img/standard-banner.jpg</image:loc>
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>www.filmflix.com/img/DVDs-007.jpg.webp</image:loc>
+	<image:loc>www.filmflix.com/img/pro-banner.webp</image:loc>
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<image:image>
@@ -118,11 +118,23 @@
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
+	<image:loc>www.filmflix.com/img/naruto-banner.png</image:loc>
 	<image:title>slide%201</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image.png</image:loc>
+	<image:loc>www.filmflix.com/img/mrrobot-banner.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/SH002960010000.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/endgame-banner.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/dark-banner.jpg</image:loc>
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<video:video>

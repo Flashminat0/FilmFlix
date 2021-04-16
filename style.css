@@ -163,11 +163,21 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
+.voffset-md{
+	margin-top:50px;
+}
+.voffset-lg{
+	margin-top:80px;
+}
 /* Dividers */
 
 .b-divider{
 	border-top:1px solid rgba(0,0,0,.1);
 	border-bottom:1px solid rgba(0,0,0,.1);
+}
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
 }
 
 
@@ -399,7 +409,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .row-style{
-	width:11.33%;
+	width:100%;
 }
 .btn-submit-style{
 	width:49.02%;
@@ -431,7 +441,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:38.29%;
 }
 .btn-11-style{
-	width:14.56%;
+	width:19%;
+	position:relative;
+	left:23px;
+	background-color:rgba(255,255,255,0.62);
+	color:rgba(0,0,0,0.74)!important;
+	font-family:"Ubuntu";
+	font-weight:600;
 	border-radius:20px 20px 20px 20px;
 }
 .btn-13-style{
@@ -482,6 +498,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-10-style{
 	width:4.49%;
+	position:relative;
+	right:20px;
+	background-color:#FEFFFE;
+	color:#FEFFFE!important;
+	border-radius:17.5px 17.5px 17.5px 17.5px;
 }
 .payment-title{
 	color:#000000!important;
@@ -549,6 +570,37 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#141514;
 	color:#FEFFFE!important;
 }
+.divider-style{
+	width:100%;
+}
+.hide-divider{
+	background-color:transparent;
+	color:transparent!important;
+	border-color:transparent!important;
+	position:relative;
+	width:0px;
+	padding-top:150px;
+}
+.basic-icon{
+	color:rgba(149,149,147,0.50)!important;
+}
+.standard-icon{
+	color:rgba(149,149,147,0.50)!important;
+}
+.pro-icon{
+	color:rgba(149,149,147,0.50)!important;
+}
+.pic-banner{
+	width:110%;
+	position:relative;
+	right:40px;
+}
+.h3-bloc-11-style{
+	width:100%;
+}
+.banner-add-icon{
+	color:#FEFFFE!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -600,6 +652,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .waves-container canvas {
 	display: block;
+}
+.rating,.rating-empty{
+		position: relative;
+		display:inline-block;
+}
+.rating-score{
+		position: absolute;
+		overflow: hidden;
+		left: 0;
+		top:0;
+		z-index:1;
 }
 
 
@@ -686,6 +749,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mt-md-0{
 	}
 	.mt-md-4{
+	}
+	
+	/* MD Row Margin Offsets */
+	.voffset-md{
+		margin-top:30px;
 	}
 	
 }
