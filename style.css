@@ -508,10 +508,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	display:flex;
 }
 .icon-hide{
-	z-index:-1;
-	position:absolute;
-	top:135px;
-	right:130px;
+	top:0px;
+	right:0px;
+	z-index:-20;
+	position:relative;
+	align-items:stretch;
+	justify-content:space-around;
+	background-color:transparent;
+	color:transparent!important;
+	max-width:0px;
+	max-height:0px;
 }
 .left-column-profile{
 	position:relative;
@@ -520,6 +526,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .right-column-profile{
 	position:relative;
 	left:60px;
+}
+.h3-style{
+	font-family:Lobster;
+}
+.h3-bloc-1-style{
+	font-family:Lobster;
+}
+.h2-style{
+	font-family:"helvetica";
+}
+.desc-bill{
+	color:#000000!important;
+	text-transform:capitalize;
+	font-family:"Lato";
+	font-weight:500;
+}
+.desc-font{
+	color:#141514!important;
+}
+.btn-buy{
+	background-color:#141514;
+	color:#FEFFFE!important;
 }
 
 /* = Colour
@@ -560,6 +588,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	right:0;
 	top:0;
 	bottom: 0;
+}
+.waves-container {
+	max-width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+}
+.waves-container canvas {
+	display: block;
 }
 
 
