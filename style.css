@@ -601,6 +601,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .banner-add-icon{
 	color:#FEFFFE!important;
 }
+.img-mrrobot-bann-style{
+	height:153px;
+	width:273px;
+}
+.img-dark-bann-style{
+	height:153px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
