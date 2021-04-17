@@ -537,11 +537,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height:45px;
 }
 .btn-10-style{
-	width:4.49%;
 	position:relative;
 	right:20px;
 	background-color:#FEFFFE;
 	color:#FEFFFE!important;
+	height:34px;
+	width:34px;
 	border-radius:17.5px 17.5px 17.5px 17.5px;
 }
 .payment-title{
@@ -663,7 +664,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bloc-divider-t-bloc-12-style{
 	width:100%;
-	height:727px;
+	height:646px;
 	fill:rgba(124,29,138,0.20);
 }
 
@@ -686,6 +687,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-onyx:hover{
 	background:#111111!important;
 	color:#FFFFFF!important;
+}
+.wire-btn-white{
+	color:#FFFFFF!important;
+	border-color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */
