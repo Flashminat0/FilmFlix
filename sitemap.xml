@@ -123,19 +123,19 @@
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/mrrobot-banner.jpg</image:loc>
-	<image:title>placeholder%20image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/SH002960010000.jpg</image:loc>
-	<image:title>placeholder%20image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/endgame-banner.jpg</image:loc>
-	<image:title>placeholder%20image</image:title>
+	<image:title>slide%202</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/dark-banner.jpg</image:loc>
-	<image:title>placeholder%20image</image:title>
+	<image:title>slide%203</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/endgame-banner.jpg</image:loc>
+	<image:title>endgame%20banner</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/SH002960010000.jpg</image:loc>
+	<image:title>SH002960010000</image:title>
 	</image:image>
 	<video:video>
 	<video:content_loc>www.filmflix.com/vid/inception-trailer.mp4</video:content_loc>
@@ -218,6 +218,24 @@
 	<image:image>
 	<image:loc>www.filmflix.com/img/placeholder-image.png</image:loc>
 	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>www.filmflix.com/get-the-app.html</loc>
+	<lastmod>2021-04-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>www.filmflix.com/img/iphone-screen.png</image:loc>
+	<image:title>iphone%20screen</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/</image:loc>

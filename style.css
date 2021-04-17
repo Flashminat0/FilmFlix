@@ -211,10 +211,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-top:1px solid rgba(0,0,0,.1);
 	border-bottom:1px solid rgba(0,0,0,.1);
 }
-.b-divider-dashed{
-	border-top:1px dashed rgba(0,0,0,.1);
-	border-bottom:1px dashed rgba(0,0,0,.1);
-}
 
 
 /* = NavBar
@@ -432,6 +428,32 @@ button{
 	fill-rule: evenodd;
 	stroke-linecap:round;
 }
+/* = iPhone 6 Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-iphone6{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display: block;
+	width:100%;
+	height:auto;
+	padding: 18%;
+}
+.blocsapp-device-iphone6 img{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+.blocsapp-device-iphone6 .embed-responsive::before{
+	padding-top: 106.25%;
+}
+.blocsapp-device-iphone6 .embed-responsive{
+	padding-bottom: 70%;
+}
+.blocsapp-device-iphone6.iphone6-silver{
+	background-image:url("img/Apple-iPhone-6s-Silver.png");
+}
 
 /* Hide Object */
 .object-hidden{
@@ -641,6 +663,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .banner-add-icon{
 	color:#FEFFFE!important;
+	width:44px;
+	height:44px;
+	background-color:transparent;
+	padding:0px 0px 0px 0px;
 }
 .p-bloc-11-style{
 	line-height:20px;
@@ -667,6 +693,61 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:646px;
 	fill:rgba(124,29,138,0.20);
 }
+.h3-“wait-what--style{
+	font-family:Lobster;
+}
+.banner-hide{
+	width:1000px;
+	max-width:0px;
+	max-height:0px;
+	opacity:0.0;
+}
+.window-banner-small{
+	cursor:none;
+}
+.window-banner-small:hover{
+	width:110%;
+	height:110%;
+	position:relative;
+	z-index:999;
+	float:right;
+}
+.icon-inside-banner{
+	margin-top:11px;
+	margin-left:8px;
+	margin-right:7px;
+	background-color:transparent;
+}
+.play-button{
+	margin-left:62px;
+	border-style:_popUpItemAction:;
+	width:114px;
+}
+.play-button:hover{
+	color:#FEFFFF!important;
+	background-color:#59008B;
+	width:145px;
+	background-blend-mode:multiply;
+}
+.icon-inside-banner:hover{
+	color:#FEFFFF!important;
+}
+.size-slideshow{
+	height:0px;
+	max-height:600px;
+}
+.btn-bloc-10-style{
+	border-radius:26px 26px 26px 26px;
+}
+.btn-18-style{
+	border-radius:26px 26px 26px 26px;
+}
+.btn-14-style{
+	border-radius:25px 25px 25px 25px;
+}
+.btn-12-style{
+	border-radius:25px 25px 25px 25px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -687,10 +768,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-onyx:hover{
 	background:#111111!important;
 	color:#FFFFFF!important;
-}
-.wire-btn-white{
-	color:#FFFFFF!important;
-	border-color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */
