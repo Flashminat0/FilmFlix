@@ -415,6 +415,35 @@ button{
 .blocsapp-device-iphone6.iphone6-silver{
 	background-image:url("img/Apple-iPhone-6s-Silver.png");
 }
+/* = MacBook Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-mb{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display: block;
+	width:100%;
+	height:auto;
+	padding: 3.6% 15% 7.5%;
+}
+.blocsapp-device-mb img{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+.blocsapp-device-mb .embed-responsive::before{
+	padding-top: 56.25%;
+}
+.blocsapp-device-mb .embed-responsive{
+	padding-bottom: 8%;
+}
+/* = MacBook Space Grey
+-------------------------------------------------------------- */
+
+.mb-space-grey{
+	background-image:url("img/Apple-Macbook-Space-Grey.png");
+}
 
 /* Hide Object */
 .object-hidden{
@@ -575,6 +604,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-style{
 	font-family:"helvetica";
+	width:100%;
+	font-size:31px;
 }
 .desc-bill{
 	color:#000000!important;
@@ -728,7 +759,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	-webkit-background-clip:text!important;
 }
 .label-style{
-	font-size:20px;
+	font-size:28px;
+	margin-left:105px;
 }
 .title-mov-load{
 	padding-top:16px;
@@ -831,6 +863,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tnx-txt{
 	font-size:31px;
+}
+.bloc-divider-b-style{
+	height:552px;
+	fill:rgba(0,0,0,0.57);
+}
+.home-laptop{
+	margin-top:39px;
 }
 
 /* = Colour
