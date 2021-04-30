@@ -10,6 +10,10 @@
 	<image:title>mbp%20screen</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>www.filmflix.com/img/popcorn-home.png</image:loc>
+	<image:title>popcorn%20home</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>www.filmflix.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
