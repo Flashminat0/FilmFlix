@@ -871,6 +871,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .home-laptop{
 	margin-top:33px;
 }
+.git-icon{
+	color:rgba(255,255,255,0.68)!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
