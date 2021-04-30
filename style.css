@@ -935,6 +935,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .icon-top{
 	margin-bottom:18px;
 }
+.icon-set-home{
+	padding-top:11px;
+	padding-bottom:11px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
