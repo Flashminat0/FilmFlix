@@ -49,6 +49,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 20px;
 }
+.bloc-md{
+	padding:50px 20px;
+}
 .bloc-sm{
 	padding:20px;
 }
@@ -892,6 +895,46 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FEFFFE!important;
 	padding-right:12px;
 }
+.login-page-btn{
+	background-color:rgba(182,254,139,0.69);
+}
+.h6-style{
+	font-family:Lobster;
+	font-size:28px;
+}
+.h3-3-style{
+	font-size:33px;
+}
+.show-watcher{
+	color:#FFFFFF!important;
+	background-color:transparent;
+}
+.amazon:hover{
+	color:rgba(255,137,0,0.75)!important;
+}
+.microsoft{
+	color:#FEFFFE!important;
+	background-clip:text!important;
+	-webkit-background-clip:text!important;
+}
+.microsoft:hover{
+	background:linear-gradient(117deg, #00FF00 0%, #FF9000 34%, #0000FF 63%, #FF0000 100%);
+	background-clip:text!important;
+	-webkit-background-clip:text!important;
+	color:rgba(213,255,255,0.88)!important;
+}
+.facebook:hover{
+	color:#0432FF!important;
+}
+.google:hover{
+	color:#00F900!important;
+}
+.icon-bottom{
+	margin-top:30px;
+}
+.icon-top{
+	margin-bottom:18px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -923,6 +966,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
+.img-hover-tilt-container{
+	position:relative;
+	transform-style: preserve-3d;
+}
+.hover-tilt-label{
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%) translateZ(20px);
+	width:100%;
+	 text-align:center;
+	font-size:40px;
+}
+.hover-tilt-light-text{
+	color:rgba(255,255,255,.8);
+}
 
 
 /* = Bloc Padding Multi Breakpoint
