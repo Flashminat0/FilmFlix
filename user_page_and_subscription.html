@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?8507">
-	<link rel="stylesheet" type="text/css" href="style.css?9283">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?861">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?8028">
+	<link rel="stylesheet" type="text/css" href="style.css?8017">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5087">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -36,7 +36,7 @@
     
 <!-- navbar -->
 <div class="bloc none full-width-bloc animated fadeInDown b-parallax l-bloc " data-appear-anim-style="fadeInDown" id="navbar">
-	<div class="container bloc-sm bloc-no-padding-lg">
+	<div class="container bloc-sm bloc-no-padding-lg b-divider-dashed">
 		<div class="row">
 			<div class="col">
 				<nav class="navbar navbar-light row navbar-expand-md" role="navigation">
@@ -82,44 +82,40 @@
 </div>
 <!-- navbar END -->
 
-<!-- bloc-16 -->
-<div class="bloc l-bloc" id="bloc-16">
+<!-- user-details -->
+<div class="bloc l-bloc bloc-bg-texture texture-fabric" id="user-details">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-4 col">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-fluid rounded-circle mx-auto d-block lazyload" alt="placeholder user" />
+			<div class="col-sm-4 col animated vanishIn" data-appear-anim-style="vanishIn">
+				<img src="img/lazyload-ph.png" data-src="img/placeholder-user.png" class="img-fluid rounded-circle mx-auto d-block animated bounceIn animDelay02 lazyload" alt="placeholder user" data-appear-anim-style="bounceIn" />
 			</div>
 			<div class="col-sm-8 col">
-				<form id="form_3" data-form-type="blocs-form" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
+				<form id="update-details-form" data-form-type="blocs-form" action="update-details-form" method="POST">
+					<div class="form-group animated fadeIn animDelay04" data-appear-anim-style="fadeIn">
 						<label>
 							Name
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control animated fadeIn" required name="name" data-appear-anim-style="fadeIn" />
 					</div>
-					<div class="form-group">
+					<div class="form-group animated fadeIn animDelay06" data-appear-anim-style="fadeIn">
 						<label>
 							Email
 						</label>
-						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required />
+						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required name="email" />
 					</div>
-					<div class="form-group">
+					<div class="form-group animated fadeIn animDelay08" data-appear-anim-style="fadeIn">
 						<label>
-							Message
-						</label><textarea id="message" class="form-control" rows="1" cols="50" required></textarea>
-						<div class="form-group">
-							<label>
-								Label
-							</label><textarea class="form-control" rows="1" cols="50" required id="textarea_406"></textarea>
-						</div>
+							password
+						</label>
+						<input id="email" class="form-control" type="password" required name="email" />
 					</div>
 					<div class="form-check">
-						<input class="form-check-input" type="checkbox" id="optin" data-validation-minchecked-message="are there true ?" data-validation-minchecked-minchecked="1" name="optin" />
-						<label class="form-check-label">
+						<input class="form-check-input animated fadeIn animDelay1" type="checkbox" id="optin" data-validation-minchecked-message="You need to verify before you submit" data-validation-minchecked-minchecked="1" name="optin" data-appear-anim-style="fadeIn" />
+						<label class="form-check-label animated fadeIn animDelay08" data-appear-anim-style="fadeIn">
 							These are true
 						</label>
 					</div> 
-					<button class="bloc-button btn btn-d btn-lg btn-21-style" type="submit">
+					<button class="bloc-button btn btn-d btn-lg btn-21-style animated vanishIn animDelay08" type="submit" data-appear-anim-style="vanishIn">
 						Submit
 					</button>
 				</form>
@@ -127,134 +123,140 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-16 END -->
+<!-- user-details END -->
 
-<!-- subscribe-block -->
-<div class="bloc l-bloc" id="subscribe-block">
+<!-- subscribe-hiding-part -->
+<div class="bloc l-bloc bloc-bg-texture texture-fabric" id="subscribe-hiding-part">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row scroll-fx-in-fade animated puffIn" data-appear-anim-style="puffIn">
 			<div class="col-lg-4 offset-lg-4 col-sm-6 offset-sm-3 col">
-				<h2 class="mg-md text-center">
-					Feature Title
+				<h2 class="mg-md text-center h2-subscription-style">
+					Subscription
 				</h2>
 				<h4 class="mg-md text-center">
-					A more descriptive sub heading.
-				</h4><a href="#" class="btn btn-d btn-xl btn-block" data-toggle-visibility="user-page-buy,subscribe-block">Subscribe</a>
+					Do you want to unlock all features of this website?&nbsp;
+				</h4><a href="#" class="btn btn-d btn-xl btn-block" data-toggle-visibility="user-page-buy,subscribe-hiding-part">Check out our plans</a>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- subscribe-block END -->
+<!-- subscribe-hiding-part END -->
 
 <!-- user-page-buy -->
-<div class="bloc l-bloc object-hidden" id="user-page-buy">
+<div class="bloc l-bloc object-hidden bloc-bg-texture texture-fabric" id="user-page-buy">
 	<div class="container bloc-no-padding-lg">
-		<div class="row">
+		<div class="row none animated zoomInDown" data-appear-anim-style="zoomInDown">
 			<div class="col-md-4 col-lg-3 offset-lg-1 align-self-center">
-				<div class="card">
+				<div class="card animated bounceInLeft" data-appear-anim-style="bounceInLeft">
 					<div class="card-header">
-						<h3 class="mg-clear text-center">
+						<h3 class="mg-clear text-center title-mov-user-buy">
 							Basic
 						</h3>
-					</div><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					</div><img src="img/lazyload-ph.png" data-src="img/basic-banner.jpg" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
 					<div class="card-body">
 						<ul class="list-unstyled">
 							<li>
-								<p class="text-center">
-									Awesome feature one
+								<p class="text-center desc-font">
+									Unlimited Access
+								</p>
+								<p class="text-center desc-font">
+									1 Screen
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature two
+								<p class="text-center desc-font">
+									720p quality
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature three
+								<p class="text-center desc-font">
+									No downloads
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature four
-								</p>
 							</li>
 						</ul>
 					</div>
 					<div class="card-footer">
-						<a href="index.html" class="btn btn-d btn-lg btn-block">Buy Now</a>
+						<button class="btn btn-d btn-lg buy-btn bloc-button btn-block" id="user-basic-buy-btn" type="submit">
+							LKR 1000/=
+						</button>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 mt-3 mt-md-0 col-lg-4">
-				<div class="card">
+				<div class="card animated bounceInUp" data-appear-anim-style="bounceInUp">
 					<div class="card-header">
-						<h3 class="mg-clear text-center">
+						<h3 class="mg-clear text-center title-mov-user-buy">
 							Standard
 						</h3>
-					</div><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					</div><img src="img/lazyload-ph.png" data-src="img/standard-banner.jpg" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
 					<div class="card-body">
 						<ul class="list-unstyled">
 							<li>
-								<p class="text-center">
-									Awesome feature one
+								<p class="text-center desc-font">
+									Unlimited Access
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature two
+								<p class="text-center desc-font">
+									2 Screens
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature three
+								<p class="text-center desc-font">
+									1080p quality
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature four
+								<p class="text-center desc-font">
+									Downloads on one Device
 								</p>
 							</li>
 						</ul>
 					</div>
 					<div class="card-footer">
-						<a href="index.html" class="btn btn-d btn-lg btn-block">Buy Now</a>
+						<button class="btn btn-d btn-lg btn-block buy-btn bloc-button" id="user-standard-buy-btn" type="submit">
+							LKR 2000/=
+						</button>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 mt-3 mt-md-0 col-lg-3 align-self-center">
-				<div class="card">
+				<div class="card animated bounceInRight" data-appear-anim-style="bounceInRight">
 					<div class="card-header">
-						<h3 class="mg-clear text-center">
+						<h3 class="mg-clear text-center title-mov-user-buy">
 							Pro
 						</h3>
-					</div><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
+					</div><img src="img/lazyload-ph.png" data-src="img/pro-banner.webp" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" />
 					<div class="card-body">
 						<ul class="list-unstyled">
 							<li>
-								<p class="text-center">
-									Awesome feature one
+								<p class="text-center desc-font">
+									Unlimited Access
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature two
+								<p class="text-center desc-font">
+									4 Screens
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature three
+								<p class="text-center desc-font">
+									4K quality
 								</p>
 							</li>
 							<li>
-								<p class="text-center">
-									Awesome feature four
+								<p class="text-center desc-font">
+									Downloads on 2 devices
 								</p>
 							</li>
 						</ul>
 					</div>
 					<div class="card-footer">
-						<a href="index.html" class="btn btn-d btn-lg btn-block">Buy Now</a>
+						<button class="btn btn-d btn-lg btn-block buy-btn bloc-button" id="user-pro-buy-btn" type="submit">
+							LKR 3000/=
+						</button>
 					</div>
 				</div>
 			</div>
@@ -262,10 +264,10 @@
 		<div class="row mind-change">
 			<div class="col">
 				<h3 class="mg-md mx-auto d-block text-lg-center">
-					I Changed My mid
+					I Changed My mind
 				</h3>
 				<div class="text-center">
-					<a href="#" class="btn btn-d btn-take-me-back-style btn-lg" data-toggle-visibility="user-page-buy,subscribe-block">Take me back</a>
+					<a href="#" class="btn btn-d btn-take-me-back-style btn-lg" data-toggle-visibility="user-page-buy,subscribe-hiding-part">Take me back</a>
 				</div>
 			</div>
 		</div>
@@ -335,15 +337,16 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.js?9867"></script>
-<script src="./js/bootstrap.bundle.js?412"></script>
-<script src="./js/blocs.js?3291"></script>
+<script src="./js/jquery-3.5.1.min.js?1243"></script>
+<script src="./js/bootstrap.bundle.min.js?8467"></script>
+<script src="./js/blocs.min.js?3267"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?2151"></script>
+<script src="./js/formHandler.js?9831"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/waves.js?7233"></script>
-<script src="./js/particles.min.js?9111"></script>
-<script src="./js/particles-setup.js?6624"></script><!-- Additional JS END -->
+<script src="./js/waves.js?2525"></script>
+<script src="./js/particles.min.js?8353"></script>
+<script src="./js/scrollFX.js?8923"></script>
+<!-- Additional JS END -->
 
 
 </body>

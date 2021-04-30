@@ -138,6 +138,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 	background: url("img/texture-paper.png");
 	background-size: 280px 280px;
 }
+.texture-fabric::before{
+	background: url("img/texture-fabric.png");
+}
 
 
 /* Background Effects */
@@ -210,6 +213,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 .b-divider{
 	border-top:1px solid rgba(0,0,0,.1);
 	border-bottom:1px solid rgba(0,0,0,.1);
+}
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
 }
 
 
@@ -311,29 +318,8 @@ button{
 .icon-md{
 	font-size:30px!important;
 }
-.icon-round{
-	margin:0 auto;
-	border:2px solid transparent;
-	border-radius: 50%;
-	padding: 32px 30px 26px 30px;
-	min-width:80px;
-}
-.icon-round.icon-md,.icon-square.icon-md,.icon-rounded.icon-md{
-	min-width: 92px;
-}
-.icon-round.icon-lg,.icon-square.icon-lg,.icon-rounded.icon-lg{
-	min-width: 122px;
-}
-.icon-round.icon-xl,.icon-square.icon-xl,.icon-rounded.icon-xl{
-	min-width: 162px;
-}
 
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.sm-shadow{
-	text-shadow:0 1px 2px rgba(0,0,0,.3);
-}
 
 
 /* = Cards
@@ -351,24 +337,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -510,7 +478,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-21-style{
 	width:100%;
-	padding-top:20px;
+	margin-top:15px;
 }
 .p-style{
 	width:90.77%;
@@ -633,13 +601,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:150px;
 }
 .basic-icon{
-	color:rgba(149,149,147,0.50)!important;
+	color:rgba(149,149,33,0.50)!important;
 }
 .standard-icon{
-	color:rgba(149,149,147,0.50)!important;
+	color:rgba(0,117,0,0.50)!important;
 }
 .pro-icon{
-	color:rgba(149,149,147,0.50)!important;
+	color:rgba(255,149,0,0.50)!important;
 }
 .pic-banner{
 	width:110%;
@@ -769,10 +737,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:39.39%;
 }
 .btn-26-style{
-	width:27.58%;
+	width:39.34%;
 }
 .field-bloc-15-style{
 	width:100%;
+	margin-top:7px;
 }
 .btn-29-style{
 	width:100%;
@@ -817,6 +786,52 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .upload-from-second-label{
 	padding-top:8px;
 }
+.h2-subscription-style{
+	font-size:40px;
+}
+.bloc-divider-b-fill{
+	fill:rgba(0,0,0,0.53);
+	height:727px;
+}
+.desc-search-bar{
+	margin-top:13px;
+}
+.title-mov-user-buy{
+	color:#000000!important;
+}
+.buy-btn{
+	color:rgba(0,0,0,0.34)!important;
+}
+.buy-btn:hover{
+	color:#000000!important;
+}
+.h3-bloc-3-style{
+	font-family:Lobster;
+}
+.app-title{
+	margin-top:134px;
+}
+.app-details{
+	margin-left:71px;
+}
+.btn-bloc-3-style{
+	width:64.9%;
+	margin-left:78px;
+	margin-top:31px;
+}
+.subscrption-part{
+	margin:0px 0px -23px 0px;
+}
+.tick-icon{
+	margin-right:24px;
+}
+.i-understand-label{
+	font-size:22px;
+	font-family:"Source Sans Pro";
+}
+.tnx-txt{
+	font-size:31px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -848,15 +863,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
-#particles-js{
-	position: absolute;
-	height:100%;
-	width: 100%;
-	left: 0;
-	right:0;
-	top:0;
-	bottom: 0;
-}
 
 
 /* = Bloc Padding Multi Breakpoint
