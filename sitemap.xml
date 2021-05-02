@@ -107,32 +107,24 @@
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>www.filmflix.com/img/naruto-banner.jpg</image:loc>
-	<image:title>slide%201</image:title>
+	<image:title>slide-1</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/mrrobot-banner.jpg</image:loc>
-	<image:title>slide%202</image:title>
+	<image:title>slide-2</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/dark-banner.jpg</image:loc>
-	<image:title>slide%203</image:title>
+	<image:title>slide-3</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/endgame-banner.jpg</image:loc>
-	<image:title>endgame%20banner</image:title>
+	<image:title>slide-4</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>www.filmflix.com/img/family-guy-banner.jpg</image:loc>
-	<image:title>SH002960010000</image:title>
+	<image:title>slide-5</image:title>
 	</image:image>
-	<video:video>
-	<video:content_loc>www.filmflix.com/vid/inception-trailer.mp4</video:content_loc>
-	<video:title>inception-trailer</video:title>
-	</video:video>
-	<video:video>
-	<video:content_loc>www.filmflix.com/vid/video-placeholder.mp4</video:content_loc>
-	<video:title>video-placeholder</video:title>
-	</video:video>
 	<image:image>
 	<image:loc>www.filmflix.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>

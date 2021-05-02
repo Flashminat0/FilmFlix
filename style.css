@@ -205,18 +205,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
-.voffset-md{
-	margin-top:50px;
-}
-.voffset-lg{
-	margin-top:80px;
-}
 /* Dividers */
 
-.b-divider{
-	border-top:1px solid rgba(0,0,0,.1);
-	border-bottom:1px solid rgba(0,0,0,.1);
-}
 .b-divider-dashed{
 	border-top:1px dashed rgba(0,0,0,.1);
 	border-bottom:1px dashed rgba(0,0,0,.1);
@@ -268,10 +258,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
-}
-.mg-lg{
-	margin-top:10px;
-	margin-bottom:40px;
 }
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
@@ -334,6 +320,15 @@ button{
 
 
 
+/* = Lists
+-------------------------------------------------------------- */
+.list-horizontal-layout li{
+	display:inline-block;
+	margin:0 10px;
+}
+.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
+	padding-bottom:0;
+}
 
 /* = Cards
 -------------------------------------------------------------- */
@@ -1070,11 +1065,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mt-md-0{
 	}
 	.mt-md-4{
-	}
-	
-	/* MD Row Margin Offsets */
-	.voffset-md{
-		margin-top:30px;
 	}
 	
 }
