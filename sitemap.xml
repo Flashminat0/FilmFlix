@@ -71,6 +71,10 @@
 	<lastmod>2021-05-03</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<video:video>
+	<video:content_loc>www.filmflix.com/vid/inception-trailer.mp4</video:content_loc>
+	<video:title>inception-trailer</video:title>
+	</video:video>
 	<image:image>
 	<image:loc>www.filmflix.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>

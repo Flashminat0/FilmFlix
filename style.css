@@ -333,6 +333,24 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -944,6 +962,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:400;
 	font-family:"Lato";
 	color:rgba(255,255,255,0.75)!important;
+}
+.btn-hide{
+	position:relative;
+	margin-left:0px;
+	top:25px;
+	margin-top:22px;
+	padding:20px 45px 17px 45px;
+}
+.titile-icon-movie{
+	padding-right:18px;
 }
 
 /* = Colour
