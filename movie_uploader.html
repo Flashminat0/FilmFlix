@@ -5,168 +5,224 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="canonical" href="www.filmflix.com/movie_uploader.html"/>
-    <meta name="robots" content="index, follow"/>
+	<link rel="canonical" href="www.filmflix.com/movie_uploader.html" />
+	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2398">
-    <link rel="stylesheet" type="text/css" href="style.css?4737">
-    <link rel="stylesheet" type="text/css" href="./css/animate.min.css?9905">
-    <link rel="stylesheet" type="text/css" href="./css/cookieconsent.min.css?5069">
-    <link rel="stylesheet" type="text/css" href="./css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet'
-          type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin,latin-ext'
-          rel='stylesheet' type='text/css'>
-    <title>movie_uploader</title>  <!-- Analytics --> <!-- Analytics END -->  </head>
-<body><!-- Preloader -->
-<div id="page-loading-blocs-notifaction" class="page-preloader"></div><!-- Preloader END --><!-- Main container -->
-<div class="page-container">  <!-- navbar -->
-    <div class="bloc none full-width-bloc animated fadeInDown b-parallax l-bloc" data-appear-anim-style="fadeInDown"
-         id="navbar">
-        <div class="container bloc-sm bloc-no-padding-lg b-divider-dashed">
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-light row navbar-expand-md" role="navigation"><a
-                            class="navbar-brand animated zoomIn animSpeedLazy animDelay02 link-style" href="index.html"
-                            data-appear-anim-style="zoomIn"><img src="img/Header_logo.jpg" alt="logo" class="mr-2"/>FilmFlix</a>
-                        <button id="nav-toggle" type="button"
-                                class="ui-navbar-toggler navbar-toggler border-0 p-0 ml-auto mr-md-0 nav-togggle menu-icon-thick-bars"
-                                data-toggle="collapse" data-target=".navbar-43698" aria-expanded="false"
-                                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse navbar-43698 special-dropdown-nav">
-                            <ul class="site-navigation nav navbar-nav ml-auto">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="about.html" class="nav-link">about</a></li>
-                                <li class="nav-item"><a href="login.html" class="nav-link">login</a></li>
-                                <li class="nav-item"><a href="movies.html" class="nav-link">movies</a></li>
-                                <li class="nav-item"><a href="browse.html" class="nav-link">browse</a></li>
-                                <li class="nav-item"><a href="movie_uploader.html" class="nav-link">movie_uploader</a>
-                                </li>
-                                <li class="nav-item"><a href="description_adder.html"
-                                                        class="nav-link">description_adder</a></li>
-                                <li class="nav-item"><a href="user_page_and_subscription.html" class="nav-link a-btn">user
-                                    page</a></li>
-                                <li class="nav-item"><a href="get-the-app.html" class="a-btn nav-link">get-the-app</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div><!-- navbar END --><!-- mov-upload -->
-    <div class="bloc l-bloc animated puffIn bloc-bg-texture texture-fabric" id="mov-upload"
-         data-appear-anim-style="puffIn">
-        <div class="container bloc-lg bloc-md-lg">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="row">
-                        <div class="col">
-                            <div class="upload-form">
-                                <button class="btn btn-d btn-lg bloc-button float-lg-none btn-select-file-style animated vanishIn animDelay06"
-                                        type="submit" id="mov-upload-select-file-btn" data-appear-anim-style="vanishIn">
-                                    <span class="icon-spacer far fa-file upload-select-file-icon"></span>Select File
-                                </button>
-                                <button class="btn btn-d btn-lg bloc-button float-lg-right btn-file-upload-style animated vanishIn animDelay06"
-                                        type="submit" id="mov-upload-file-upload-btn" data-appear-anim-style="vanishIn">
-                                    File Upload
-                                </button>
-                                <form id="mov-upload-form" data-form-type="blocs-form" action="custom-action-url"
-                                      method="POST">
-                                    <div class="form-group upload-form-begining-txt"><label>File Name</label><input
-                                            id="mov_upload_file_name_txt" class="form-control" required
-                                            name="mov_upload_file_name_txt"/>
-                                        <div class="form-group upload-from-second-label"><label>Film ID</label><input
-                                                class="form-control" id="mov_upload_film_id_txt" required
-                                                name="mov_upload_film_id_txt"/></div>
-                                    </div>
-                                    <div class="form-group"><label>Film File Path<br></label><input
-                                            id="mov_upload_film_path_txt" class="form-control" required
-                                            name="mov_upload_film_path_txt"/></div>
-                                    <button class="bloc-button btn btn-d btn-lg btn-block upload-submit-btn animated vanishIn animDelay08"
-                                            type="submit" id="mov-upload-submit-btn" data-appear-anim-style="vanishIn">
-                                        Submit
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-4"><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png"
-                                                    class="img-fluid mx-auto d-block upload-img zoomIn animDelay02 animated pulse-hvr lazyload"
-                                                    alt="placeholder image" id="mov-upload-img"
-                                                    data-appear-anim-style="zoomIn"/>
-                    <div class="form-group animated fadeInRight animDelay04" data-appear-anim-style="fadeInRight"><input
-                            class="form-control" placeholder="🔍  Search movie by ID" required
-                            id="mov-upload-film-search-txt"/></div>
-                    <div class="animated puffIn animDelay04" data-appear-anim-style="puffIn">
-                        <div class="row">
-                            <div class="col">
-                                <button class="btn btn-d btn-lg btn-23-style bloc-button" id="mov-upload-search-btn"
-                                        type="submit">Search
-                                </button>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-d btn-lg btn-24-style bloc-button" id="mov-upload-delete-id"
-                                        type="submit">Delete
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- mov-upload END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop"
-                                                               onclick="scrollToTarget('1',this)">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32">
-            <path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/>
-        </svg>
-    </a><!-- ScrollToTop Button END--><!-- footer -->
-    <div class="bloc l-bloc" id="footer">
-        <div class="container bloc-lg">
-            <div class="row">
-                <div class="col-md-3 col-sm-6"><h4 class="mg-md text-sm-left text-center">About</h4><a href="about.html"
-                                                                                                       class="a-btn a-block footer-link">The
-                    Team</a><a href="about.html" class="a-btn a-block footer-link">Contact Us</a></div>
-                <div class="col-md-3 col-sm-6"><h4 class="mg-md text-sm-left text-center">Get the app</h4><a
-                        href="index.html" class="a-btn a-block footer-link">Android</a><a href="index.html"
-                                                                                          class="a-btn a-block footer-link">iOS</a>
-                </div>
-                <div class="col-md-3 col-sm-6"><h4 class="mg-md text-sm-left text-center">Follow Us</h4><a
-                        href="index.html" class="a-btn a-block footer-link">Twitter</a><a href="index.html"
-                                                                                          class="a-btn a-block footer-link">Facebook</a>
-                </div>
-                <div class="col-md-3 col-sm-6"><h4 class="mg-md text-sm-left text-center">Connect</h4>
-                    <div class="row">
-                        <div class="col-6 col-sm-2 col offset-sm-0">
-                            <div class="text-center"><a href="https://github.com/Flashminat0" target="_blank"><span
-                                    class="icon-md ion ion-social-github git-icon"></span></a></div>
-                        </div>
-                        <div class="col-6 col-sm-2">
-                            <div class="text-center"><a href="https://github.com/HDHUB" target="_blank"><span
-                                    class="icon-md ion ion-social-octocat git-icon"></span></a></div>
-                        </div>
-                        <div class="col-6 col-sm-2">
-                            <div class="text-center"><a href="https://github.com/swee76" target="_blank"><span
-                                    class="icon-md ion ion-social-github-outline git-icon"></span></a></div>
-                        </div>
-                        <div class="col-6 col-sm-2">
-                            <div class="text-center"><a href="https://github.com/Tharushi1212" target="_blank"><span
-                                    class="icon-md ion ion-social-octocat git-icon"></span></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- footer END --></div><!-- Main container END -->  <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.min.js?9730"></script>
-<script src="./js/bootstrap.bundle.min.js?7005"></script>
-<script src="./js/blocs.min.js?6657"></script>
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?8560">
+	<link rel="stylesheet" type="text/css" href="style.css?3449">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?888">
+	<link rel="stylesheet" type="text/css" href="./css/cookieconsent.min.css?3767">
+	
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>movie_uploader</title>
+
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- navbar -->
+<div class="bloc none full-width-bloc animated fadeInDown b-parallax l-bloc b-divider " data-appear-anim-style="fadeInDown" id="navbar">
+	<div class="container bloc-sm bloc-no-padding-lg">
+		<div class="row">
+			<div class="col">
+				<nav class="navbar navbar-light row navbar-expand-md" role="navigation">
+					<a class="navbar-brand animated zoomIn animSpeedLazy animDelay02 link-style" href="index.html" data-appear-anim-style="zoomIn"><img src="img/Header_logo.jpg" alt="logo" class="mr-2" />FilmFlix</a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ml-auto mr-md-0 nav-togggle menu-icon-thick-bars" data-toggle="collapse" data-target=".navbar-43698" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse navbar-43698 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav ml-auto">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link">about</a>
+							</li>
+							<li class="nav-item">
+								<a href="login.html" class="nav-link">login</a>
+							</li>
+							<li class="nav-item">
+								<a href="movies.html" class="nav-link">movies</a>
+							</li>
+							<li class="nav-item">
+								<a href="browse.html" class="nav-link">browse</a>
+							</li>
+							<li class="nav-item">
+								<a href="movie_uploader.html" class="nav-link">movie_uploader</a>
+							</li>
+							<li class="nav-item">
+								<a href="description_adder.html" class="nav-link">description_adder</a>
+							</li>
+							<li class="nav-item">
+								<a href="user_page_and_subscription.html" class="nav-link a-btn">user page</a>
+							</li>
+							<li class="nav-item">
+								<a href="get-the-app.html" class="a-btn nav-link">get-the-app</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- navbar END -->
+
+<!-- mov-upload -->
+<div class="bloc l-bloc animated puffIn bloc-bg-texture texture-fabric" id="mov-upload" data-appear-anim-style="puffIn">
+	<div class="container bloc-lg bloc-md-lg">
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="row">
+					<div class="col">
+						<div class="upload-form">
+							<button class="btn btn-d btn-lg bloc-button float-lg-none btn-select-file-style animated vanishIn animDelay06" type="submit" id="mov-upload-select-file-btn" data-appear-anim-style="vanishIn">
+								<span class="icon-spacer far fa-file upload-select-file-icon"></span>Select File
+							</button>
+							<button class="btn btn-d btn-lg bloc-button float-lg-right btn-file-upload-style animated vanishIn animDelay06" type="submit" id="mov-upload-file-upload-btn" data-appear-anim-style="vanishIn">
+								File Upload
+							</button>
+							<form id="mov-upload-form" data-form-type="blocs-form" action="custom-action-url" method="POST">
+								<div class="form-group upload-form-begining-txt">
+									<label>
+										File Name
+									</label>
+									<input id="mov_upload_file_name_txt" class="form-control" required name="mov_upload_file_name_txt" />
+									<div class="form-group upload-from-second-label">
+										<label>
+											Film ID
+										</label>
+										<input class="form-control" id="mov_upload_film_id_txt" required name="mov_upload_film_id_txt" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label>
+										Film File Path<br>
+									</label>
+									<input id="mov_upload_film_path_txt" class="form-control" required name="mov_upload_film_path_txt" />
+								</div> 
+								<button class="bloc-button btn btn-d btn-lg btn-block upload-submit-btn animated vanishIn animDelay08" type="submit" id="mov-upload-submit-btn" data-appear-anim-style="vanishIn">
+									Submit
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-lg-4">
+				<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block upload-img zoomIn animDelay02 animated pulse-hvr lazyload" alt="placeholder image" id="mov-upload-img" data-appear-anim-style="zoomIn" />
+				<div class="form-group animated fadeInRight animDelay04" data-appear-anim-style="fadeInRight">
+					<input class="form-control" placeholder="🔍  Search movie by ID" required id="mov-upload-film-search-txt" />
+				</div>
+				<div class="animated puffIn animDelay04" data-appear-anim-style="puffIn">
+					<div class="row">
+						<div class="col">
+							<button class="btn btn-d btn-lg btn-23-style bloc-button" id="mov-upload-search-btn" type="submit">
+								Search
+							</button>
+						</div>
+						<div class="col">
+							<button class="btn btn-d btn-lg btn-24-style bloc-button" id="mov-upload-delete-id" type="submit">
+								Delete
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- mov-upload END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- footer -->
+<div class="bloc l-bloc" id="footer">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<h4 class="mg-md text-sm-left text-center">
+					About
+				</h4><a href="about.html" class="a-btn a-block footer-link">The Team</a><a href="about.html" class="a-btn a-block footer-link">Contact Us</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<h4 class="mg-md text-sm-left text-center">
+					Get the app
+				</h4><a href="index.html" class="a-btn a-block footer-link">Android</a><a href="index.html" class="a-btn a-block footer-link">iOS</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<h4 class="mg-md text-sm-left text-center">
+					Follow Us
+				</h4><a href="index.html" class="a-btn a-block footer-link">Twitter</a><a href="index.html" class="a-btn a-block footer-link">Facebook</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<h4 class="mg-md text-sm-left text-center">
+					Connect
+				</h4>
+				<div class="row">
+					<div class="col-6 col-sm-2 col offset-sm-0">
+						<div class="text-center">
+							<a href="https://github.com/Flashminat0" target="_blank"><span class="icon-md ion ion-social-github git-icon"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://github.com/HDHUB" target="_blank"><span class="icon-md ion ion-social-octocat git-icon"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://github.com/swee76" target="_blank"><span class="icon-md ion ion-social-github-outline git-icon"></span></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-2">
+						<div class="text-center">
+							<a href="https://github.com/Tharushi1212" target="_blank"><span class="icon-md ion ion-social-octocat git-icon"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Additional JS -->
+<script src="./js/jquery-3.5.1.js?5478"></script>
+<script src="./js/bootstrap.bundle.js?5994"></script>
+<script src="./js/blocs.js?869"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?2841"></script>
+<script src="./js/formHandler.js?5200"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/waves.js?5346"></script>
-<script src="./js/particles.min.js?3396"></script>
-<script src="./js/cookieconsent.min.js?1057"></script><!-- Additional JS END --></body>
+<script src="./js/waves.js?1777"></script>
+<script src="./js/particles.min.js?4418"></script>
+<script src="./js/cookieconsent.min.js?913"></script><!-- Additional JS END -->
+
+
+</body>
 </html>

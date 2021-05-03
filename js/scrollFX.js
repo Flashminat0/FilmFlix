@@ -1,4 +1,5 @@
 
+// Blocs Scroll FX 1.0.2
 $(window).on('load', function(){scrollFX()});
 $(window).scroll(function(){scrollFX();});
 
