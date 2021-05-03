@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?2975">
-	<link rel="stylesheet" type="text/css" href="style.css?3095">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?7691">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?3142">
+	<link rel="stylesheet" type="text/css" href="style.css?8372">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?7749">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -79,7 +79,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col">
-				<h1 class="mg-md">
+				<h1 class="mg-md animated lightSpeedIn" data-appear-anim-style="lightSpeedIn">
 					Banner Configuration
 				</h1>
 			</div>
@@ -87,22 +87,22 @@
 		<div class="row">
 			<div class="col">
 				<div class="row">
-					<div class="col">
-						<a href="#" class="btn btn-d btn-lg btn-block" id="create-new-entry-btn" data-toggle-visibility="banner-welcome,text-field-box,create">Create New Entry</a>
+					<div class="col none animated bounce animDelay08" data-appear-anim-style="bounce">
+						<a href="#" class="btn btn-d btn-lg btn-block none animated fadeInLeft" id="create-new-entry-btn" data-toggle-visibility="banner-welcome,text-field-box,create" data-appear-anim-style="fadeInLeft">Create New Entry</a>
 					</div>
 					<div class="col">
 						<form id="banner-search-form" data-form-type="blocs-form" action="banner-search" method="POST">
 							<div class="form-group">
-								<input id="search_movie_id_banner" class="form-control" required name="name8" placeholder="🔍 Search movie ID" />
+								<input id="search_movie_id_banner" class="form-control animated bounceInRight" required name="name8" placeholder="🔍 Search movie ID" data-appear-anim-style="bounceInRight" />
 								<div>
-									<div class="row search-box-btn">
+									<div class="row search-box-btn animated vanishIn animDelay04" data-appear-anim-style="vanishIn">
 										<div class="col">
-											<button class="btn btn-d btn-lg btn-37-style btn-block bloc-button" id="submit-search-btn" type="submit">
+											<button class="btn btn-d btn-lg btn-37-style btn-block bloc-button animDelay02 animated bounceInUp" id="submit-search-btn" type="submit" data-appear-anim-style="bounceInUp">
 												Submit
 											</button>
 										</div>
 										<div class="col">
-											<a href="#" class="btn btn-d btn-lg btn-38-style float-lg-none" data-toggle-visibility="banner-welcome,text-field-box,edit-or-delete">Edit / Delete</a>
+											<a href="#" class="btn btn-d btn-lg btn-38-style float-lg-none animDelay04 animated bounceInUp" data-toggle-visibility="banner-welcome,text-field-box,edit-or-delete" data-appear-anim-style="bounceInUp">Edit / Delete</a>
 										</div>
 									</div>
 								</div>
@@ -121,7 +121,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col">
-				<h1 class="mg-md">
+				<h1 class="mg-md animated lightSpeedIn" data-appear-anim-style="lightSpeedIn">
 					Edit Details&nbsp;
 				</h1>
 			</div>
@@ -129,37 +129,37 @@
 		<div class="row">
 			<div class="col">
 				<div class="row">
-					<div class="col-lg-5">
-						<img src="img/lazyload-ph.png" data-src="img/inception-banner.jpg" class="img-fluid mx-auto d-block img-bloc-18-style lazyload" alt="placeholder image" /><a href="movie-banner-uploader.html" class="btn btn-d btn-lg cancel-btn btn-block ">Cancel</a>
+					<div class="col-lg-5 animated puffIn" data-appear-anim-style="puffIn">
+						<img src="img/lazyload-ph.png" data-src="img/inception-banner.jpg" class="img-fluid mx-auto d-block img-bloc-18-style animated bounceInUp lazyload" alt="placeholder image" data-appear-anim-style="bounceInUp" /><a href="movie-banner-uploader.html" class="btn btn-d btn-lg cancel-btn btn-block animated vanishIn animDelay04" data-appear-anim-style="vanishIn">Cancel</a>
 					</div>
 					<div class="col offset-lg--1">
-						<form id="poster-select-form" data-form-type="blocs-form" action="select-poster" method="POST">
+						<form id="poster-select-form" data-form-type="blocs-form" class="animated fadeInRight" action="select-poster" method="POST" data-appear-anim-style="fadeInRight">
 							<div class="form-group">
 								<label>
 									Movie ID
 								</label>
-								<input id="name7" class="form-control" required name="name7" />
+								<input id="name7" class="form-control animated bounceInRight animDelay04" required name="name7" data-appear-anim-style="bounceInRight" />
 							</div>
 							<div class="form-group">
 								<label>
 									Movie Name
 								</label>
-								<input id="name7" class="form-control" required name="name7" />
+								<input id="name7" class="form-control animated bounceInRight animDelay08" required name="name7" data-appear-anim-style="bounceInRight" />
 							</div>
 							<div class="form-group">
 								<label>
 									Movie Banner File Location
 								</label>
-								<input id="name7" class="form-control" required name="name7" />
+								<input id="name7" class="form-control animated bounceInRight animDelay1" required name="name7" data-appear-anim-style="bounceInRight" />
 								<div class="object-hidden" id="edit-or-delete">
-									<div class="row buttons-below-banner-submit">
+									<div class="row buttons-below-banner-submit animated bounceInUp animDelay1" data-appear-anim-style="bounceInUp">
 										<div class="col">
-											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="edit-btn">
+											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block animated vanishIn animDelay1" type="submit" id="edit-btn" data-appear-anim-style="vanishIn">
 												Edit
 											</button>
 										</div>
 										<div class="col">
-											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="delete-btn">
+											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block animated vanishIn animDelay1" type="submit" id="delete-btn" data-appear-anim-style="vanishIn">
 												Delete
 											</button>
 										</div>
@@ -167,8 +167,8 @@
 								</div>
 								<div class="object-hidden" id="create">
 									<div class="row buttons-below-banner-submit">
-										<div class="col">
-											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="create-btn">
+										<div class="col animated bounceInUp " data-appear-anim-style="bounceInUp">
+											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block animated vanishIn animDelay1" type="submit" id="create-btn" data-appear-anim-style="vanishIn">
 												Create
 											</button>
 										</div>
@@ -248,14 +248,14 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.js?6229"></script>
-<script src="./js/bootstrap.bundle.js?585"></script>
-<script src="./js/blocs.js?913"></script>
+<script src="./js/jquery-3.5.1.js?985"></script>
+<script src="./js/bootstrap.bundle.js?6933"></script>
+<script src="./js/blocs.js?4683"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?3970"></script>
+<script src="./js/formHandler.js?2084"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/waves.js?2612"></script>
-<script src="./js/particles.min.js?4379"></script><!-- Additional JS END -->
+<script src="./js/waves.js?8170"></script>
+<script src="./js/particles.min.js?4523"></script><!-- Additional JS END -->
 
 
 </body>
