@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?2154">
-	<link rel="stylesheet" type="text/css" href="style.css?9240">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?3797">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?2975">
+	<link rel="stylesheet" type="text/css" href="style.css?3095">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?7691">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -36,7 +36,7 @@
 <div class="page-container">
     
 <!-- navbar -->
-<div class="bloc none full-width-bloc animated fadeInDown b-parallax l-bloc b-divider " data-appear-anim-style="fadeInDown" id="navbar">
+<div class="bloc none full-width-bloc animated fadeInDown b-parallax l-bloc b-divider" data-appear-anim-style="fadeInDown" id="navbar">
 	<div class="container bloc-sm bloc-no-padding-lg">
 		<div class="row">
 			<div class="col">
@@ -88,24 +88,21 @@
 			<div class="col">
 				<div class="row">
 					<div class="col">
-						<a href="index.html" class="btn btn-d btn-lg btn-block" id="create-new-entry-btn">Create New Entry</a>
+						<a href="#" class="btn btn-d btn-lg btn-block" id="create-new-entry-btn" data-toggle-visibility="banner-welcome,text-field-box,create">Create New Entry</a>
 					</div>
 					<div class="col">
 						<form id="banner-search-form" data-form-type="blocs-form" action="banner-search" method="POST">
 							<div class="form-group">
-								<label>
-									Name
-								</label>
-								<input id="name8" class="form-control" required name="name8" />
+								<input id="search_movie_id_banner" class="form-control" required name="name8" placeholder="🔍 Search movie ID" />
 								<div>
-									<div class="row">
+									<div class="row search-box-btn">
 										<div class="col">
-											<button class="bloc-button btn btn-d btn-lg btn-block btn-37-style" type="submit">
+											<button class="btn btn-d btn-lg btn-37-style btn-block bloc-button" id="submit-search-btn" type="submit">
 												Submit
 											</button>
 										</div>
 										<div class="col">
-											<a href="index.html" class="btn btn-d btn-lg">Button</a>
+											<a href="#" class="btn btn-d btn-lg btn-38-style float-lg-none" data-toggle-visibility="banner-welcome,text-field-box,edit-or-delete">Edit / Delete</a>
 										</div>
 									</div>
 								</div>
@@ -120,13 +117,20 @@
 <!-- banner-welcome END -->
 
 <!-- text-field-box -->
-<div class="bloc l-bloc" id="text-field-box">
+<div class="bloc l-bloc object-hidden" id="text-field-box">
 	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<h1 class="mg-md">
+					Edit Details&nbsp;
+				</h1>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col">
 				<div class="row">
 					<div class="col-lg-5">
-						<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block img-bloc-18-style lazyload" alt="placeholder image" />
+						<img src="img/lazyload-ph.png" data-src="img/inception-banner.jpg" class="img-fluid mx-auto d-block img-bloc-18-style lazyload" alt="placeholder image" /><a href="movie-banner-uploader.html" class="btn btn-d btn-lg cancel-btn btn-block ">Cancel</a>
 					</div>
 					<div class="col offset-lg--1">
 						<form id="poster-select-form" data-form-type="blocs-form" action="select-poster" method="POST">
@@ -147,7 +151,7 @@
 									Movie Banner File Location
 								</label>
 								<input id="name7" class="form-control" required name="name7" />
-								<div>
+								<div class="object-hidden" id="edit-or-delete">
 									<div class="row buttons-below-banner-submit">
 										<div class="col">
 											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="edit-btn">
@@ -161,7 +165,7 @@
 										</div>
 									</div>
 								</div>
-								<div>
+								<div class="object-hidden" id="create">
 									<div class="row buttons-below-banner-submit">
 										<div class="col">
 											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="create-btn">
@@ -244,14 +248,14 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.js?4906"></script>
-<script src="./js/bootstrap.bundle.js?7767"></script>
-<script src="./js/blocs.js?154"></script>
+<script src="./js/jquery-3.5.1.js?6229"></script>
+<script src="./js/bootstrap.bundle.js?585"></script>
+<script src="./js/blocs.js?913"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?6993"></script>
+<script src="./js/formHandler.js?3970"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/waves.js?708"></script>
-<script src="./js/particles.min.js?4094"></script><!-- Additional JS END -->
+<script src="./js/waves.js?2612"></script>
+<script src="./js/particles.min.js?4379"></script><!-- Additional JS END -->
 
 
 </body>

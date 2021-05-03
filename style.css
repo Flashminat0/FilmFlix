@@ -989,7 +989,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:14px;
 }
 .btn-37-style{
-	width:45.88%;
+	width:100%;
+}
+.btn-38-style{
+	width:92.08%;
+}
+.search-box-btn{
+	margin-top:14px;
+}
+.cancel-btn{
+	margin-top:35px;
 }
 
 /* = Colour
