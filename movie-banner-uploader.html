@@ -5,18 +5,18 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="canonical" href="www.filmflix.com/description_adder.html" />
+	<link rel="canonical" href="www.filmflix.com/movie-banner-uploader.html" />
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?7069">
-	<link rel="stylesheet" type="text/css" href="style.css?3039">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css?3182">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css?2154">
+	<link rel="stylesheet" type="text/css" href="style.css?9240">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css?3797">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>description_adder</title>
+    <title>movie-banner-uploader</title>
 
 
     
@@ -74,57 +74,42 @@
 </div>
 <!-- navbar END -->
 
-<!-- description-add -->
-<div class="bloc l-bloc animated fadeIn animSpeedLazy bloc-bg-texture texture-fabric" id="description-add" data-appear-anim-style="fadeIn">
-	<div class="container bloc-lg bloc-sm-lg">
+<!-- banner-welcome -->
+<div class="bloc l-bloc" id="banner-welcome">
+	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-4 col animated fadeIn" data-appear-anim-style="fadeIn">
-				<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block animated bounceInLeft lazyload" alt="placeholder image" id="desc-mov-img" data-appear-anim-style="bounceInLeft" />
-				<div class="desc-search-bar">
-					<div class="row">
-						<div class="col-lg-9">
-							<div class="form-group">
-								<input class="form-control animated bounceInLeft animDelay04" placeholder="Enter Movie ID" id="desc-search-txt" data-appear-anim-style="bounceInLeft" />
-							</div>
-						</div>
-						<div class="col">
-							<button class="bloc-button btn btn-d btn-lg float-lg-right pulse-hvr animated vanishIn animDelay02" type="submit" id="desc-mov-id-search-btn" data-appear-anim-style="vanishIn">
-								🔍
-							</button>
-						</div>
-					</div>
-				</div>
-				<button class="btn btn-d btn-lg btn-26-style bloc-button animated vanishIn animDelay04" type="submit" id="desc-edit-btn" data-appear-anim-style="vanishIn">
-					<span class="icon-spacer ion ion-android-create"></span>Edit
-				</button>
-				<button class="btn btn-d btn-lg btn-edit-style float-lg-right bloc-button animated vanishIn animDelay04" type="submit" id="desc-del-btn" data-appear-anim-style="vanishIn">
-					<span class="icon-spacer ion ion-close-circled"></span>Delete
-				</button>
+			<div class="col">
+				<h1 class="mg-md">
+					Banner Configuration
+				</h1>
 			</div>
-			<div class="col-sm-8 col animated bounceInUp" data-appear-anim-style="bounceInUp">
+		</div>
+		<div class="row">
+			<div class="col">
 				<div class="row">
-					<div class="col-12">
-						<form id="desc-adder" data-form-type="blocs-form" action="description-add" method="POST">
+					<div class="col">
+						<a href="index.html" class="btn btn-d btn-lg btn-block" id="create-new-entry-btn">Create New Entry</a>
+					</div>
+					<div class="col">
+						<form id="banner-search-form" data-form-type="blocs-form" action="banner-search" method="POST">
 							<div class="form-group">
 								<label>
-									Movie ID
+									Name
 								</label>
-								<input id="desc_movie_id" class="form-control animated fadeInRight animDelay06" required type="number" data-validation-required-message="Please fill this before submit" name="name5" data-appear-anim-style="fadeInRight" />
+								<input id="name8" class="form-control" required name="name8" />
+								<div>
+									<div class="row">
+										<div class="col">
+											<button class="bloc-button btn btn-d btn-lg btn-block btn-37-style" type="submit">
+												Submit
+											</button>
+										</div>
+										<div class="col">
+											<a href="index.html" class="btn btn-d btn-lg">Button</a>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="form-group">
-								<label>
-									Movie Name
-								</label>
-								<input id="desc_movie_name" class="form-control animated fadeInRight animDelay06" required data-validation-required-message="Please fill this before submit" name="email5" data-appear-anim-style="fadeInRight" />
-							</div>
-							<div class="form-group">
-								<label>
-									Movie Description
-								</label><textarea id="desc_mov_desc" class="form-control animated fadeInRight animDelay06" rows="4" cols="50" required data-validation-required-message="Please fill this before submit" maxlength="150" name="message" data-appear-anim-style="fadeInRight"></textarea>
-							</div> 
-							<button class="bloc-button btn btn-d btn-lg btn-block animated vanishIn animDelay1" type="submit" data-appear-anim-style="vanishIn">
-								Submit
-							</button>
 						</form>
 					</div>
 				</div>
@@ -132,7 +117,68 @@
 		</div>
 	</div>
 </div>
-<!-- description-add END -->
+<!-- banner-welcome END -->
+
+<!-- text-field-box -->
+<div class="bloc l-bloc" id="text-field-box">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<div class="row">
+					<div class="col-lg-5">
+						<img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block img-bloc-18-style lazyload" alt="placeholder image" />
+					</div>
+					<div class="col offset-lg--1">
+						<form id="poster-select-form" data-form-type="blocs-form" action="select-poster" method="POST">
+							<div class="form-group">
+								<label>
+									Movie ID
+								</label>
+								<input id="name7" class="form-control" required name="name7" />
+							</div>
+							<div class="form-group">
+								<label>
+									Movie Name
+								</label>
+								<input id="name7" class="form-control" required name="name7" />
+							</div>
+							<div class="form-group">
+								<label>
+									Movie Banner File Location
+								</label>
+								<input id="name7" class="form-control" required name="name7" />
+								<div>
+									<div class="row buttons-below-banner-submit">
+										<div class="col">
+											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="edit-btn">
+												Edit
+											</button>
+										</div>
+										<div class="col">
+											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="delete-btn">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="row buttons-below-banner-submit">
+										<div class="col">
+											<button class="bloc-button btn btn-d btn-lg btn-36-style btn-block" type="submit" id="create-btn">
+												Create
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- text-field-box END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
@@ -202,10 +248,10 @@
 <script src="./js/bootstrap.bundle.js?7767"></script>
 <script src="./js/blocs.js?154"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?2942"></script>
+<script src="./js/formHandler.js?6993"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/waves.js?8843"></script>
-<script src="./js/particles.min.js?4460"></script><!-- Additional JS END -->
+<script src="./js/waves.js?708"></script>
+<script src="./js/particles.min.js?4094"></script><!-- Additional JS END -->
 
 
 </body>
