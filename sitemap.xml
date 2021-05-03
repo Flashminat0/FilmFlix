@@ -72,26 +72,6 @@
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image.png</image:loc>
-	<image:title>placeholder%20image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
-	<image:title>slide%201</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
-	<image:title>slide%202</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image-wide.png</image:loc>
-	<image:title>slide%203</image:title>
-	</image:image>
-	<video:video>
-	<video:content_loc>www.filmflix.com/vid/video-placeholder.mp4</video:content_loc>
-	<video:title>video-placeholder</video:title>
-	</video:video>
-	<image:image>
 	<image:loc>www.filmflix.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
