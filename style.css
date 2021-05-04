@@ -954,6 +954,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-11-style{
 	width:298px;
+	margin-top:23px;
 }
 .connect-to-about-page{
 	font-size:24px;
@@ -999,6 +1000,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .cancel-btn{
 	margin-top:35px;
+}
+.h2-recommend-style{
+	font-size:35px;
 }
 
 /* = Colour

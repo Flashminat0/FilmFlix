@@ -114,7 +114,19 @@
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>www.filmflix.com/img/placeholder-image.png</image:loc>
+	<image:loc>www.filmflix.com/img/adventure-time-bannner.png</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/love-death-robots-banner.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/got-banner.jpg</image:loc>
+	<image:title>placeholder%20image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>www.filmflix.com/img/demon-slayer-banner.jpg</image:loc>
 	<image:title>placeholder%20image</image:title>
 	</image:image>
 	<image:image>
