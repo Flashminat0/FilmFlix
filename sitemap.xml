@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>www.filmflix.com</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -24,7 +24,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/about.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -54,7 +54,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/login.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -68,7 +68,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/movies.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<video:video>
@@ -86,7 +86,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/browse.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -140,7 +140,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/movie_uploader.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -158,7 +158,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/description_adder.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -176,7 +176,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/user_page_and_subscription.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -206,7 +206,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/get-the-app.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -224,7 +224,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/movie-banner-uploader.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -242,7 +242,7 @@
 </url>
 <url>
 	<loc>www.filmflix.com/payment.html</loc>
-	<lastmod>2021-05-04</lastmod>
+	<lastmod>2021-05-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
